@@ -2,7 +2,6 @@ from keras.applications import MobileNet
 from keras.models import Sequential,Model 
 from keras.layers import Dense,Dropout,Activation,Flatten,GlobalAveragePooling2D
 from keras.layers import Conv2D,MaxPooling2D,ZeroPadding2D
-from keras.layers.normalization import BatchNormalization
 from keras.preprocessing.image import ImageDataGenerator
 
 # MobileNet is designed to work with images of dim 224,224
